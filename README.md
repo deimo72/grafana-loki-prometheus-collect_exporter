@@ -67,3 +67,4 @@ Para ejecutar docker-compose.yml
 docker-compose up -d
 ```
 Ingresar a la url de Grafana ```http://<servidor>:3000```
+En grafana ingrasar el archivo ````grafana_dashboard.json```` para generar los tableros tableros
