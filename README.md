@@ -1,4 +1,4 @@
-# PracticaNicolasCorrea
+# Docker-compose
 
 El docker-compose.yml cuenta con los servicios de grafana, loki, prometheus, y collect_exporter, pero falta la instalacion de collectd en el servidor y la de promtail en el cliente, además de habilitar mod_status (server-status) en este último.
 
@@ -67,4 +67,4 @@ Para ejecutar docker-compose.yml
 docker-compose up -d
 ```
 Ingresar a la url de Grafana ```http://<servidor>:3000```
-En grafana ingrasar el archivo ````grafana_dashboard.json```` para generar los tableros tableros
+En grafana ingresar el archivo ````grafana_dashboard.json```` para generar los tableros tableros
